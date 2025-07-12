@@ -5,6 +5,9 @@ This project explores **generating human-like stories from visual inputs** using
 > Developed by Muhammad Nouman Hanif and Muhammad Sabeel Ahmed  
 > FAST-NUCES | Supervised by Dr. Jawwad Ahmed Shamsi
 
+🔗 **Run it in Colab**: (🔗 **Link**: [Open in Colab](https://colab.research.google.com/drive/1y8wSgmJiSngF034GE9J_-bGV_gF6r6NJ?usp=sharing)
+
+
 ---
 
 ## 🚀 Overview
