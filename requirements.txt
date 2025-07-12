@@ -1,0 +1,9 @@
+transformers
+datasets
+peft
+trl
+torch
+accelerate
+bert_score
+rouge_score
+matplotlib
