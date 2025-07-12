@@ -34,18 +34,6 @@ We built an end-to-end pipeline that:
 
 ---
 
-## 📁 File Structure
-
-| Folder         | Description                                      |
-|----------------|--------------------------------------------------|
-| `notebooks/`   | Jupyter/Colab notebooks for training + eval      |
-| `images/`      | Visuals: attention maps, pipeline design, samples|
-| `models/`      | Saved LoRA fine-tuned model (if uploaded)        |
-| `data/`        | Sample prompts/captions                          |
-| `results/`     | Evaluation CSVs                                  |
-
----
-
 ## 🔧 Setup
 
 ```bash
