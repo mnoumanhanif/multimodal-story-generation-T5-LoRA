@@ -1,4 +1,4 @@
-"""Visualisation helpers for model comparison.
+"""Visualization helpers for model comparison.
 
 Functions for plotting evaluation metrics across different models and
 story styles.

@@ -34,7 +34,7 @@ models, enhanced through **LoRA fine-tuning**.
 | Fine-tuning | LoRA via PEFT + SFTTrainer (TRL) |
 | Framework | PyTorch, Hugging Face Transformers |
 | Evaluation | BERTScore, ROUGE, NLTK BLEU |
-| Visualisation | Matplotlib, Seaborn |
+| Visualization | Matplotlib, Seaborn |
 
 ---
 
@@ -99,7 +99,7 @@ from multimodal_story_generation import MultimodalStoryGenerator
 
 generator = MultimodalStoryGenerator()
 
-# Stage 1: Analyse an image
+# Stage 1: Analyze an image
 analysis = generator.analyze_image("photo.jpg")
 print(analysis["description"])
 

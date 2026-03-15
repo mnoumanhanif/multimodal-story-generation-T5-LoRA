@@ -26,7 +26,7 @@ def main():
     print("Loading models (this may take a moment on first run)...")
     generator = MultimodalStoryGenerator()
 
-    print(f"\nAnalysing image: {image_path}")
+    print(f"\nAnalyzing image: {image_path}")
     analysis = generator.analyze_image(image_path)
     print(f"Caption: {analysis['description']}")
 

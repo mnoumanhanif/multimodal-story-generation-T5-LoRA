@@ -45,7 +45,7 @@ src/multimodal_story_generation/
 
 Contains the `MultimodalStoryGenerator` class:
 
-- `analyze_image(path)` — runs BLIP and returns a description dict.
+- `analyze_image(image_path)` — runs BLIP and returns a description dict.
 - `generate_story(analysis, llm_choice, style)` — generates a story.
 - `_create_enhanced_prompt(analysis, style)` — builds the prompt.
 

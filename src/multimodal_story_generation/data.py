@@ -10,6 +10,8 @@ import pandas as pd
 from datasets import Dataset, load_dataset
 from sklearn.model_selection import train_test_split
 
+from multimodal_story_generation.prompts import create_enhanced_prompt
+
 
 def prepare_storytelling_dataset(
     dataset_name="nlphuji/flickr30k",
@@ -134,7 +136,7 @@ def build_finetune_dataset(
                 continue
 
             analysis = story_generator.analyze_image(row["image_path"])
-            prompt = story_generator._create_enhanced_prompt(
+            prompt = create_enhanced_prompt(
                 analysis, row["style"]
             ).strip()
             story = str(row["reference_story"])

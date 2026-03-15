@@ -71,7 +71,7 @@ class MultimodalStoryGenerator:
     # ------------------------------------------------------------------
 
     def analyze_image(self, image_path):
-        """Analyse an image and return a textual description via BLIP.
+        """Analyze an image and return a textual description via BLIP.
 
         Parameters
         ----------
