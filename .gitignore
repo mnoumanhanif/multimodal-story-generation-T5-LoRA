@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training outputs
+results_finetune/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+tensorboard/
+runs/
+
+# Data
+data/
+images_flickr30k/
+.pytest_cache/
